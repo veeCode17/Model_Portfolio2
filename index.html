@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Khushi — Model Portfolio</title>
+
+    <meta
+        name="description"
+        content="Khushi — Fashion model portfolio."
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         PAGE LOADER
+    ========================== -->
+
+    <div class="loader" id="loader">
+        <div class="loader-name">KHUSHI</div>
+        <div class="loader-line"></div>
+        <span>MODEL PORTFOLIO</span>
+    </div>
+
+
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
+
+    <header class="navbar" id="navbar">
+
+        <a href="#home" class="logo">KHUSHI</a>
+
+        <nav class="desktop-nav">
+            <a href="#home">Home</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="#contact" class="book-button">
+            BOOK ME
+        </a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+            <span></span>
+            <span></span>
+        </button>
+
+    </header>
+
+
+    <!-- =========================
+         MOBILE MENU
+    ========================== -->
+
+    <div class="mobile-menu" id="mobileMenu">
+
+        <div class="mobile-menu-inner">
+
+            <span class="menu-label">NAVIGATION</span>
+
+            <a href="#home">Home</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+
+            <div class="mobile-menu-footer">
+                <span>JAIPUR · INDIA</span>
+                <span>© 2026 KHUSHI</span>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <main>
+
+        <!-- =========================
+             HERO
+        ========================== -->
+
+        <section class="hero" id="home">
+
+            <div class="hero-top">
+                <span>MODEL / CREATIVE</span>
+                <span>JAIPUR · INDIA</span>
+                <span>2026</span>
+            </div>
+
+            <div class="hero-title">
+                <span>KHUSHI</span>
+            </div>
+
+            <p class="hero-subtitle">
+                FASHION · BEAUTY · EDITORIAL
+            </p>
+
+            <div class="hero-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=1200&q=85"
+                    alt="Khushi fashion portrait"
+                >
+
+            </div>
+
+            <div class="hero-bottom">
+
+                <p>
+                    A contemporary model focused on
+                    fashion, beauty and visual storytelling.
+                </p>
+
+                <a href="#portfolio" class="scroll-link">
+                    EXPLORE PORTFOLIO
+                    <span>↓</span>
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             INTRO
+        ========================== -->
+
+        <section class="intro">
+
+            <span class="section-label">01 — INTRODUCTION</span>
+
+            <h2>
+                PRESENCE<br>
+                <em>BEYOND</em><br>
+                THE FRAME.
+            </h2>
+
+            <p>
+                Khushi brings a refined and expressive presence
+                to fashion imagery, campaigns, editorials and
+                contemporary visual projects.
+            </p>
+
+        </section>
+
+
+        <!-- =========================
+             PORTFOLIO
+        ========================== -->
+
+        <section class="portfolio" id="portfolio">
+
+            <div class="section-heading">
+
+                <div>
+                    <span class="section-label">02 — SELECTED WORK</span>
+
+                    <h2>PORTFOLIO</h2>
+                </div>
+
+                <p>
+                    A selection of recent fashion,
+                    beauty and editorial work.
+                </p>
+
+            </div>
+
+
+            <div class="filter-bar">
+
+                <button class="filter active" data-filter="all">
+                    ALL
+                </button>
+
+                <button class="filter" data-filter="fashion">
+                    FASHION
+                </button>
+
+                <button class="filter" data-filter="beauty">
+                    BEAUTY
+                </button>
+
+                <button class="filter" data-filter="editorial">
+                    EDITORIAL
+                </button>
+
+            </div>
+
+
+            <div class="portfolio-grid" id="portfolioGrid">
+
+                <article
+                    class="portfolio-item"
+                    data-category="fashion"
+                    data-title="Modern Form"
+                    data-category-name="Fashion"
+                    data-description="A clean contemporary fashion study focused on silhouette, movement and form."
+                    data-image="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1200&q=85"
+                >
+
+                    <div class="portfolio-image">
+                        <img
+                            src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=900&q=85"
+                            alt="Modern fashion portrait"
+                            loading="lazy"
+                        >
+
+                        <div class="view-project">
+                            VIEW
+                        </div>
+                    </div>
+
+                    <div class="portfolio-info">
+                        <span>01</span>
+                        <h3>Modern Form</h3>
+                        <small>Fashion</small>
+                    </div>
+
+                </article>
+
+
+                <article
+                    class="portfolio-item"
+                    data-category="beauty"
+                    data-title="Soft Light"
+                    data-category-name="Beauty"
+                    data-description="A minimal beauty portrait exploring natural light, expression and delicate styling."
+                    data-image="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1200&q=85"
+                >
+
+                    <div class="portfolio-image">
+                        <img
+                            src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=900&q=85"
+                            alt="Beauty portrait"
+                            loading="lazy"
+                        >
+
+                        <div class="view-project">
+                            VIEW
+                        </div>
+                    </div>
+
+                    <div class="portfolio-info">
+                        <span>02</span>
+                        <h3>Soft Light</h3>
+                        <small>Beauty</small>
+                    </div>
+
+                </article>
+
+
+                <article
+                    class="portfolio-item"
+                    data-category="editorial"
+                    data-title="Quiet Confidence"
+                    data-category-name="Editorial"
+                    data-description="An editorial series built around confidence, simplicity and timeless styling."
+                    data-image="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=1200&q=85"
+                >
+
+                    <div class="portfolio-image">
+                        <img
+                            src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=900&q=85"
+                            alt="Editorial portrait"
+                            loading="lazy"
+                        >
+
+                        <div class="view-project">
+                            VIEW
+                        </div>
+                    </div>
+
+                    <div class="portfolio-info">
+                        <span>03</span>
+                        <h3>Quiet Confidence</h3>
+                        <small>Editorial</small>
+                    </div>
+
+                </article>
+
+
+                <article
+                    class="portfolio-item"
+                    data-category="fashion"
+                    data-title="After Dark"
+                    data-category-name="Fashion"
+                    data-description="A darker fashion story combining strong styling with a sophisticated visual atmosphere."
+                    data-image="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1200&q=85"
+                >
+
+                    <div class="portfolio-image">
+                        <img
+                            src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=900&q=85"
+                            alt="Fashion editorial"
+                            loading="lazy"
+                        >
+
+                        <div class="view-project">
+                            VIEW
+                        </div>
+                    </div>
+
+                    <div class="portfolio-info">
+                        <span>04</span>
+                        <h3>After Dark</h3>
+                        <small>Fashion</small>
+                    </div>
+
+                </article>
+
+
+                <article
+                    class="portfolio-item"
+                    data-category="beauty"
+                    data-title="Natural State"
+                    data-category-name="Beauty"
+                    data-description="A stripped-back beauty series emphasizing authentic expression and clean composition."
+                    data-image="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=1200&q=85"
+                >
+
+                    <div class="portfolio-image">
+                        <img
+                            src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=900&q=85"
+                            alt="Natural beauty portrait"
+                            loading="lazy"
+                        >
+
+                        <div class="view-project">
+                            VIEW
+                        </div>
+                    </div>
+
+                    <div class="portfolio-info">
+                        <span>05</span>
+                        <h3>Natural State</h3>
+                        <small>Beauty</small>
+                    </div>
+
+                </article>
+
+
+                <article
+                    class="portfolio-item"
+                    data-category="editorial"
+                    data-title="The New Classic"
+                    data-category-name="Editorial"
+                    data-description="A polished editorial interpretation of modern classic fashion."
+                    data-image="https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=1200&q=85"
+                >
+
+                    <div class="portfolio-image">
+                        <img
+                            src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=900&q=85"
+                            alt="Editorial fashion portrait"
+                            loading="lazy"
+                        >
+
+                        <div class="view-project">
+                            VIEW
+                        </div>
+                    </div>
+
+                    <div class="portfolio-info">
+                        <span>06</span>
+                        <h3>The New Classic</h3>
+                        <small>Editorial</small>
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             ABOUT
+        ========================== -->
+
+        <section class="about" id="about">
+
+            <div class="about-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1200&q=85"
+                    alt="Khushi portrait"
+                    loading="lazy"
+                >
+
+            </div>
+
+            <div class="about-content">
+
+                <span class="section-label">03 — ABOUT</span>
+
+                <h2>
+                    MORE THAN<br>
+                    <em>A LOOK.</em>
+                </h2>
+
+                <p>
+                    Khushi is a fashion and editorial model
+                    with a strong interest in contemporary
+                    styling, beauty campaigns and creative
+                    visual projects.
+                </p>
+
+                <p>
+                    Comfortable in front of the camera,
+                    she brings a calm, adaptable and
+                    expressive energy to every shoot.
+                </p>
+
+                <div class="about-details">
+
+                    <div>
+                        <span>HEIGHT</span>
+                        <strong>—</strong>
+                    </div>
+
+                    <div>
+                        <span>LOCATION</span>
+                        <strong>JAIPUR</strong>
+                    </div>
+
+                    <div>
+                        <span>AVAILABLE</span>
+                        <strong>INDIA / TRAVEL</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             EXPERIENCE
+        ========================== -->
+
+        <section class="experience" id="experience">
+
+            <div class="section-heading centered-heading">
+
+                <span class="section-label">
+                    04 — EXPERIENCE
+                </span>
+
+                <h2>
+                    SELECTED<br>
+                    <em>EXPERIENCE</em>
+                </h2>
+
+            </div>
+
+            <div class="experience-list">
+
+                <div class="experience-row">
+                    <span>2026</span>
+
+                    <div>
+                        <h3>Fashion Editorial</h3>
+                        <p>
+                            Editorial fashion shoot
+                            focused on contemporary styling.
+                        </p>
+                    </div>
+
+                    <span>EDITORIAL</span>
+                </div>
+
+
+                <div class="experience-row">
+                    <span>2026</span>
+
+                    <div>
+                        <h3>Beauty Campaign</h3>
+                        <p>
+                            Beauty-focused studio campaign
+                            with clean commercial styling.
+                        </p>
+                    </div>
+
+                    <span>BEAUTY</span>
+                </div>
+
+
+                <div class="experience-row">
+                    <span>2026</span>
+
+                    <div>
+                        <h3>Fashion Lookbook</h3>
+                        <p>
+                            Contemporary clothing lookbook
+                            featuring multiple styled looks.
+                        </p>
+                    </div>
+
+                    <span>FASHION</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CTA
+        ========================== -->
+
+        <section class="cta">
+
+            <span class="section-label">
+                05 — COLLABORATION
+            </span>
+
+            <h2>
+                LET'S CREATE<br>
+                <em>SOMETHING</em><br>
+                BEAUTIFUL.
+            </h2>
+
+            <a href="#contact" class="cta-button">
+                START A PROJECT
+                <span>→</span>
+            </a>
+
+        </section>
+
+
+        <!-- =========================
+             CONTACT
+        ========================== -->
+
+        <section class="contact" id="contact">
+
+            <div class="contact-heading">
+
+                <span class="section-label">
+                    06 — CONTACT
+                </span>
+
+                <h2>
+                    GET IN<br>
+                    <em>TOUCH.</em>
+                </h2>
+
+                <p>
+                    For bookings, campaigns, editorials,
+                    collaborations and creative projects.
+                </p>
+
+            </div>
+
+
+            <form class="contact-form" id="contactForm">
+
+                <div class="form-grid">
+
+                    <div class="form-group">
+                        <label for="name">YOUR NAME</label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            placeholder="Enter your name"
+                            required
+                        >
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="email">EMAIL</label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            placeholder="you@example.com"
+                            required
+                        >
+                    </div>
+
+                </div>
+
+
+                <div class="form-group">
+                    <label for="project">PROJECT TYPE</label>
+
+                    <select id="project" required>
+
+                        <option value="">
+                            Select project
+                        </option>
+
+                        <option value="fashion">
+                            Fashion Campaign
+                        </option>
+
+                        <option value="beauty">
+                            Beauty Campaign
+                        </option>
+
+                        <option value="editorial">
+                            Editorial
+                        </option>
+
+                        <option value="commercial">
+                            Commercial
+                        </option>
+
+                        <option value="other">
+                            Other
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="form-group">
+                    <label for="message">MESSAGE</label>
+
+                    <textarea
+                        id="message"
+                        rows="5"
+                        placeholder="Tell me about your project..."
+                        required
+                    ></textarea>
+                </div>
+
+
+                <button type="submit" class="submit-button">
+                    SEND ENQUIRY
+                    <span>→</span>
+                </button>
+
+                <p class="form-status" id="formStatus"></p>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="footer">
+
+        <div>
+            <strong>KHUSHI</strong>
+            <span>MODEL / CREATIVE</span>
+        </div>
+
+        <div class="footer-links">
+
+            <a href="#home">Home</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+
+        </div>
+
+        <div>
+            <span>© 2026 KHUSHI</span>
+        </div>
+
+    </footer>
+
+
+    <!-- =========================
+         PROJECT MODAL
+    ========================== -->
+
+    <div class="modal" id="projectModal">
+
+        <button
+            class="modal-close"
+            id="modalClose"
+            aria-label="Close project"
+        >
+            ×
+        </button>
+
+        <button
+            class="modal-arrow modal-prev"
+            id="modalPrev"
+            aria-label="Previous project"
+        >
+            ←
+        </button>
+
+        <div class="modal-inner">
+
+            <div class="modal-image">
+                <img id="modalImage" src="" alt="">
+            </div>
+
+            <div class="modal-details">
+
+                <span id="modalCategory">
+                    FASHION
+                </span>
+
+                <h2 id="modalTitle">
+                    Project
+                </h2>
+
+                <p id="modalDescription">
+                    Project description.
+                </p>
+
+                <div class="modal-number" id="modalNumber">
+                    01 / 06
+                </div>
+
+            </div>
+
+        </div>
+
+        <button
+            class="modal-arrow modal-next"
+            id="modalNext"
+            aria-label="Next project"
+        >
+            →
+        </button>
+
+    </div>
+
+
+    <!-- =========================
+         TOAST
+    ========================== -->
+
+    <div class="toast" id="toast">
+        <span>✓</span>
+        <p>Message prepared successfully.</p>
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
